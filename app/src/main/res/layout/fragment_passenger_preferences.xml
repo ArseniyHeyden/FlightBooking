@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/passenger_info_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Настройка пассажиров"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/adult"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/adult_minus_btn"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="-"
+                android:contentDescription="@string/decrease_adults" />
+
+            <TextView
+                android:id="@+id/adult_count_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1"
+                android:textSize="24sp"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/adult_plus_btn"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="+"
+                android:contentDescription="@string/increase_adults" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/child"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/child_minus_btn"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="-"
+                android:contentDescription="@string/decrease_children" />
+
+            <TextView
+                android:id="@+id/child_count_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textSize="24sp"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/child_plus_btn"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="+"
+                android:contentDescription="@string/increase_children" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/infant"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+
+            <Button
+                android:id="@+id/infant_minus_btn"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="-"
+                android:contentDescription="@string/decrease_infants" />
+
+            <TextView
+                android:id="@+id/infant_count_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textSize="24sp"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/infant_plus_btn"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="+"
+                android:contentDescription="@string/increase_infants" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/total_passengers_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_passengers_example"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Всего пассажиров: 1"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seat_class_label"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/seat_class_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="32dp" />
+
+        <Button
+            android:id="@+id/apply_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save" />
+
+    </LinearLayout>
+</ScrollView>

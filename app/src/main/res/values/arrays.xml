@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cities for autocomplete -->
+    <string-array name="cities_array">
+        <item>@string/city_moscow</item>
+        <item>@string/city_spb</item>
+        <item>@string/city_sochi</item>
+        <item>@string/city_kazan</item>
+        <item>@string/city_ekb</item>
+        <item>@string/city_novosibirsk</item>
+        <item>@string/city_vladivostok</item>
+        <item>@string/city_krasnodar</item>
+        <item>@string/city_kaliningrad</item>
+        <item>Самара</item>
+        <item>Ростов-на-Дону</item>
+        <item>Уфа</item>
+        <item>Омск</item>
+        <item>Красноярск</item>
+        <item>Воронеж</item>
+        <item>Пермь</item>
+        <item>Волгоград</item>
+        <item>Саратов</item>
+        <item>Тюмень</item>
+    </string-array>
+
+    <!-- Seat classes -->
+    <string-array name="seat_classes_array">
+        <item>@string/economy_class</item>
+        <item>@string/comfort_class</item>
+        <item>@string/business_class</item>
+    </string-array>
+
+    <!-- Ticket statuses -->
+    <string-array name="ticket_statuses_array">
+        <item>@string/ticket_status_booked</item>
+        <item>@string/ticket_status_paid</item>
+        <item>@string/ticket_status_cancelled</item>
+        <item>@string/ticket_status_completed</item>
+    </string-array>
+
+    <!-- Airlines -->
+    <string-array name="airlines_array">
+        <item>@string/airline_aeroflot</item>
+        <item>@string/airline_s7</item>
+        <item>@string/airline_pobeda</item>
+        <item>@string/airline_ural</item>
+        <item>@string/airline_rossiya</item>
+    </string-array>
+</resources>

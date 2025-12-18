@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlyFree</string>
+
+    <!-- Common -->
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Редактировать</string>
+    <string name="close">Закрыть</string>
+    <string name="search">Поиск</string>
+    <string name="loading">Загрузка…</string>
+    <string name="error">Ошибка</string>
+    <string name="success">Успешно</string>
+    <string name="empty_list">Список пуст</string>
+
+    <!-- Login -->
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Пароль</string>
+    <string name="login_button">Войти</string>
+    <string name="register_button">Зарегистрироваться</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="welcome_message">Добро пожаловать, %s!</string>
+    <string name="login_error">Неверный email или пароль</string>
+    <string name="fill_all_fields">Заполните все поля</string>
+
+    <!-- Register -->
+    <string name="name_hint">Имя</string>
+    <string name="phone_hint">Телефон</string>
+    <string name="confirm_password_hint">Подтвердите пароль</string>
+    <string name="register_title">Регистрация</string>
+    <string name="password_too_short">Пароль должен быть не менее 6 символов</string>
+    <string name="passwords_not_match">Пароли не совпадают</string>
+    <string name="invalid_email">Введите корректный email</string>
+    <string name="email_exists">Пользователь с таким email уже существует</string>
+    <string name="registration_success">Регистрация успешна!</string>
+
+    <!-- Search -->
+    <string name="from_city_hint">Откуда</string>
+    <string name="to_city_hint">Куда</string>
+    <string name="select_date">Выбрать дату</string>
+    <string name="search_flights">Найти рейсы</string>
+    <string name="clear_form">Очистить</string>
+    <string name="no_flights_found">Рейсы не найдены</string>
+    <string name="same_cities_error">Города должны различаться</string>
+    <string name="select_departure_date">Выберите дату вылета</string>
+    <string name="recent_searches">Недавние поиски</string>
+    <string name="popular_routes">Популярные направления</string>
+
+    <!-- Booking -->
+    <string name="booking_title">Бронирование билета</string>
+    <string name="passenger_info">Информация о пассажире</string>
+    <string name="passenger_name_hint">Имя пассажира</string>
+    <string name="passenger_document_hint">Номер документа</string>
+    <string name="seat_class_label">Класс обслуживания</string>
+    <string name="economy_class">Эконом</string>
+    <string name="comfort_class">Комфорт</string>
+    <string name="business_class">Бизнес</string>
+    <string name="with_return">Добавить обратный билет</string>
+    <string name="without_return">Без возврата</string>
+    <string name="select_return_date">Выбрать дату возврата</string>
+    <string name="route_format">%1$s → %2$s</string>
+    <string name="duration_format">%1$dч %2$dм</string>
+    <string name="departure_date">Вылет: %1$s</string>
+    <string name="return_date">Возврат: %1$s</string>
+    <string name="discount_level">Ваш уровень: %1$s</string>
+    <string name="price_format">%1$.2f ₽</string>
+    <string name="book_button">Забронировать</string>
+    <string name="pay_button">Оплатить</string>
+    <string name="cancel_booking">Отменить бронь</string>
+    <string name="select_return_date_error">Выберите дату возврата</string>
+    <string name="enter_passenger_name">Введите имя пассажира</string>
+    <string name="enter_document">Введите номер документа</string>
+
+    <!-- Payment -->
+    <string name="payment_title">Оплата билета</string>
+    <string name="payment_amount">Сумма к оплате: %1$.2f ₽</string>
+    <string name="confirm_payment">Подтвердите оплату</string>
+    <string name="payment_success">Оплата прошла успешно!</string>
+    <string name="payment_failed">Ошибка при оплате</string>
+    <string name="payment_cancelled">Оплата отменена</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Профиль</string>
+    <string name="logout_button">Выйти</string>
+    <string name="personal_info">Личная информация</string>
+    <string name="loyalty_program">Программа лояльности</string>
+    <string name="trip_history">История поездок</string>
+    <string name="settings">Настройки</string>
+    <string name="total_trips">Всего поездок: %1$d</string>
+    <string name="total_spent">Потрачено: %1$.2f ₽</string>
+    <string name="discount_percent">Скидка: %1$s%%</string>
+    <string name="next_level">Следующий уровень: %1$s</string>
+    <string name="max_level">Максимальный уровень</string>
+    <string name="silver_next">Серебро (10 поездок)</string>
+    <string name="gold_next">Золото (20 поездок)</string>
+
+    <!-- Tickets -->
+    <string name="tickets_title">Мои билеты</string>
+    <string name="no_tickets">У вас пока нет билетов</string>
+    <string name="ticket_id">Билет #%1$d</string>
+    <string name="ticket_status_booked">Забронирован</string>
+    <string name="ticket_status_paid">Оплачен</string>
+    <string name="ticket_status_cancelled">Отменен</string>
+    <string name="ticket_status_completed">Использован</string>
+    <string name="booking_date">Дата бронирования: %1$s</string>
+    <string name="payment_date">Дата оплаты: %1$s</string>
+
+    <!-- Favorites -->
+    <string name="favorites_title">Избранное</string>
+    <string name="no_favorites">Нет избранных рейсов</string>
+    <string name="add_to_favorites">В избранное</string>
+    <string name="remove_from_favorites">Удалить из избранного</string>
+    <string name="added_to_favorites">Добавлено в избранное</string>
+    <string name="removed_from_favorites">Удалено из избранного</string>
+
+    <!-- History -->
+    <string name="history_title">История поиска</string>
+    <string name="clear_history">Очистить историю</string>
+    <string name="history_cleared">История очищена</string>
+    <string name="no_history">История поиска пуста</string>
+    <string name="search_result_format">%1$d результатов</string>
+
+    <!-- Navigation -->
+    <string name="navigation_search">Поиск</string>
+    <string name="navigation_booking">Бронирование</string>
+    <string name="navigation_tickets">Билеты</string>
+    <string name="navigation_favorites">Избранное</string>
+    <string name="navigation_profile">Профиль</string>
+
+    <!-- Errors -->
+    <string name="network_error">Ошибка сети</string>
+    <string name="server_error">Ошибка сервера</string>
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="try_again">Попробовать снова</string>
+
+    <!-- Validation -->
+    <string name="required_field">Обязательное поле</string>
+    <string name="invalid_phone">Неверный формат телефона</string>
+    <string name="invalid_name">Имя может содержать только буквы</string>
+    <string name="invalid_document">Неверный формат документа</string>
+
+    <!-- Date and Time -->
+    <string name="today">Сегодня</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="yesterday">Вчера</string>
+    <string name="date_format_dd_mm_yyyy">dd.MM.yyyy</string>
+    <string name="date_format_yyyy_mm_dd">yyyy-MM-dd</string>
+
+    <!-- Airlines -->
+    <string name="airline_aeroflot">Аэрофлот</string>
+    <string name="airline_s7">S7 Airlines</string>
+    <string name="airline_pobeda">Победа</string>
+    <string name="airline_ural">Уральские авиалинии</string>
+    <string name="airline_rossiya">Россия</string>
+
+    <!-- Cities -->
+    <string name="city_moscow">Москва</string>
+    <string name="city_spb">Санкт-Петербург</string>
+    <string name="city_sochi">Сочи</string>
+    <string name="city_kazan">Казань</string>
+    <string name="city_ekb">Екатеринбург</string>
+    <string name="city_novosibirsk">Новосибирск</string>
+    <string name="city_vladivostok">Владивосток</string>
+    <string name="city_krasnodar">Краснодар</string>
+    <string name="city_kaliningrad">Калининград</string>
+
+    <!-- Discount Levels -->
+    <string name="bronze_level">Бронза</string>
+    <string name="silver_level">Серебро</string>
+    <string name="gold_level">Золото</string>
+    <string name="no_discount">Без скидки</string>
+
+    <!-- Booking Errors -->
+    <string name="error_booking_failed">Ошибка при бронировании</string>
+    <!-- Добавьте в существующий strings.xml -->
+    <string name="passenger_count">Количество пассажиров</string>
+    <string name="passenger_type">Тип пассажира</string>
+    <string name="adult">Взрослый (12+ лет)</string>
+    <string name="child">Ребенок (2-11 лет)</string>
+    <string name="infant">Младенец (0-2 года)</string>
+    <string name="add_passenger">Добавить пассажира</string>
+    <string name="total_passengers">Всего пассажиров: %d</string>
+    <string name="passenger_info_title">Информация о пассажирах</string>
+    <string name="passenger_number">Пассажир %d</string>
+    <string name="passenger_age">Возраст</string>
+    <string name="years_old">лет</string>
+    <string name="filter_flights">Фильтровать рейсы</string>
+    <string name="search_preferences">Предпочтения поиска</string>
+    <string name="filter_by_price">Фильтр по цене</string>
+    <string name="filter_by_duration">Фильтр по времени</string>
+    <string name="filter_by_airline">Фильтр по авиакомпании</string>
+    <string name="apply_filters">Применить фильтры</string>
+    <string name="reset_filters">Сбросить фильтры</string>
+    <string name="sort_by">Сортировать по</string>
+    <string name="price_low_high">Цена (сначала дешевые)</string>
+    <string name="price_high_low">Цена (сначала дорогие)</string>
+    <string name="duration_short_long">Время (сначала короткие)</string>
+    <string name="departure_early_late">Вылет (сначала ранние)</string>
+    <string name="book_favorite">Забронировать избранный рейс</string>
+    <string name="choose_date">Выберите дату вылета</string>
+    <string name="preferences_saved">Настройки сохранены</string>
+    <string name="passenger">Пассажир</string>
+    <string name="age_range">Возраст</string>
+    <string name="ticket_class">Класс билета</string>
+    <string name="economy_class_price">Эконом</string>
+    <string name="comfort_class_price">Комфорт</string>
+    <string name="business_class_price">Бизнес</string>
+    <!-- Добавьте эти строки в существующий strings.xml -->
+    <string name="route_example">Москва → Сочи</string>
+    <string name="airline_example">Аэрофлот</string>
+    <string name="duration_example">2ч 20м</string>
+    <string name="price_example">5500 ₽</string>
+    <string name="favorite_button_desc">Добавить в избранное</string>
+    <string name="search_title">Поиск рейсов</string>
+    <string name="search_results">Результаты поиска</string>
+    <string name="search_preferences_default">Настройки поиска не заданы</string>
+    <string name="departure_date_example">Вылет: 15.12.2024</string>
+    <string name="return_date_example">Возврат: 20.12.2024</string>
+    <string name="discount_level_example">Ваш уровень: Бронза</string>
+    <string name="total_passengers_example">Всего пассажиров: 1</string>
+    <string name="decrease_adults">Уменьшить количество взрослых</string>
+    <string name="increase_adults">Увеличить количество взрослых</string>
+    <string name="decrease_children">Уменьшить количество детей</string>
+    <string name="increase_children">Увеличить количество детей</string>
+    <string name="decrease_infants">Уменьшить количество младенцев</string>
+    <string name="increase_infants">Увеличить количество младенцев</string>
+    <string name="min_price_hint">Мин</string>
+    <string name="max_price_hint">Макс</string>
+    <string name="max_duration_hint">Например: 180</string>
+</resources>
